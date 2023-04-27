@@ -7,4 +7,6 @@ I created three scenarios:
 # Error:
 `TypeError: snap.myMap.keys is not a function or its return value is not iterable`
 
-To see for yourself, go to [this vercel deployment]() and try adding some todos.
+To see for yourself, go to [this vercel deployment](https://valtio-yjs-map-qrdqo5m0g-hobo1618.vercel.app/) and try adding some todos. Valtio-YJS works fine for arrays and will updated in different browsers/clients.
+
+But [this deployment crashes](https://valtio-yjs-map-set.vercel.app/) immediately.
