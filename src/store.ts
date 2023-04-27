@@ -51,4 +51,4 @@ export const storeWithMap = proxy<{ myMap: Map<string, string> }>({
 const ymapWithMap = providerWith.document.getMap("storeWithMap");
 
 // if we uncomment, the app works, but the connection to the tiptap WS server is lost
-// const unbindWith = bind(storeWithMap, ymapWithMap);
+const unbindWith = bind(storeWithMap, ymapWithMap);
